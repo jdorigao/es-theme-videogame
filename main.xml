@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
 autor.: Juliano Dorigão
 email.: jdorigao@gmail.com
@@ -6,8 +6,10 @@ email.: jdorigao@gmail.com
 
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./main/icons/menuicons.xml</include>
+	<include>./main/menu/menu.xml</include>
 
-	<view name="system, basic, detailed">		
+	<view name="system, basic, detailed">
 
 		<image name="background" extra="true">
 			<pos>0 0</pos>
@@ -16,7 +18,7 @@ email.: jdorigao@gmail.com
 
 		<helpsystem name="help">
 			<fontSize>0.03</fontSize>
-			<pos>0.01 0.959</pos> 
+			<pos>0.01 0.959</pos>
 			<textColor>ececec</textColor>
 			<iconColor>ff9900</iconColor>
 		</helpsystem>
@@ -27,10 +29,10 @@ email.: jdorigao@gmail.com
 			<size>1 0.06</size>
 			<path>./main/art/footer.png</path>
 		</image>
-	
+
 	</view>
 
-	<view name="basic, detailed">	
+	<view name="basic, detailed">
 
 		<image name="back-logo" extra="true">
 			<pos>0.02 0.02</pos>
@@ -43,7 +45,7 @@ email.: jdorigao@gmail.com
 			<origin>0.5 0.5</origin>
 			<maxSize>0.3 0.12</maxSize>
 		</image>
-		
+
 	</view>
 
 	<view name="basic">
@@ -222,6 +224,6 @@ email.: jdorigao@gmail.com
 			<lineSpacing>1.2</lineSpacing>
 			<fontSize>0.025</fontSize>
 			<fontPath>./main/fonts/ubuntu_medium.ttf</fontPath>
-		</text>	
-    </view>
+		</text>
+	</view>
 </theme>
