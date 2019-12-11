@@ -11,24 +11,24 @@ email.: jdorigao@gmail.com
 
 	<view name="screen">
     	<text name="clock">
-			<color>FFFFFF</color>
 			<fontPath>./main/fonts/ds-digib.ttf</fontPath>
-      		<fontSize>0.04</fontSize>
+      		<fontSize>0.045</fontSize>
       		<pos>0.90 0.945</pos>
       		<size>0.09 0.058</size>
-			<verticalAlignment>center</verticalAlignment>
+			<alignment>right</alignment>
+      		<verticalAlignment>center</verticalAlignment>
     	</text>
     
 	    <controllerActivity name="controllerActivity">
-			<pos>0.78 0.96</pos>
-			<size>0.09 0.03</size>
+			<pos>0.78 0.955</pos>
+			<size>0.1 0.035</size>
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./main/icons/gamepad.svg</imagePath>
-			<color>FFFFFF90</color>
-			<activityColor>FFFFFF</activityColor>
-			<hotkeyColor>FF9900</hotkeyColor>
-			<verticalAlignment>center</verticalAlignment>
-    	</controllerActivity>		
+			<color>FF990090</color>
+			<activityColor>FF9900</activityColor>
+			<hotkeyColor>FFFFFF</hotkeyColor>
+    	</controllerActivity>
+		
   </view>
 
 	<view name="system, basic, detailed">
