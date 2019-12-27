@@ -20,8 +20,8 @@ email.: jdorigao@gmail.com
     	</text>
     
 	    <controllerActivity name="controllerActivity">
-			<pos>0.78 0.96</pos>
-			<size>0.09 0.03</size>
+			<pos>0.83 0.96</pos>
+			<size>0.085 0.025</size>
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./main/icons/gamepad.svg</imagePath>
 			<color>FFFFFF90</color>
