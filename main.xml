@@ -32,7 +32,6 @@ email.: jdorigao@gmail.com
   </view>
 
 	<view name="system, basic, detailed">
-
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -51,11 +50,44 @@ email.: jdorigao@gmail.com
 			<size>1 0.06</size>
 			<path>./main/art/footer.png</path>
 		</image>
-
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic">
+		<image name="back-logo" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<size>0.5 0.15</size>
+			<path>./main/art/header.png</path>
+		</image>
 
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<maxSize>0.3 0.12</maxSize>
+		</image>
+
+		<image name="back-gamelist" extra="true">
+			<pos>0.25 0.188</pos>
+			<size>0.5 0.745</size>
+			<path>./main/art/back.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.25 0.212962962962963</pos>
+			<size>0.5 0.7222222222222222</size>
+			<selectorColor>ff9900</selectorColor> <!-- Selection bar -->
+			<selectedColor>262626</selectedColor> <!-- Selection letters -->
+			<primaryColor>ffffff</primaryColor> <!-- Letters -->
+			<secondaryColor>9F9F9F</secondaryColor>
+			<fontPath>./main/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./main/sound/scroll.wav</scrollSound>
+		</textlist>
+	</view>
+
+	<view name="detailed">
 		<image name="back-logo" extra="true">
 			<pos>0.02 0.02</pos>
 			<size>0.35 0.15</size>
@@ -68,31 +100,6 @@ email.: jdorigao@gmail.com
 			<maxSize>0.3 0.12</maxSize>
 		</image>
 
-	</view>
-
-	<view name="basic">
-		<image name="back-gamelist" extra="true">
-			<pos>0.02 0.19</pos>
-			<size>0.35 0.735</size>
-			<path>./main/art/back.png</path>
-		</image>
-
-		<textlist name="gamelist">
-			<pos>0.025 0.20</pos>
-			<size>0.34 0.7</size>
-			<selectorColor>ff9900</selectorColor> <!-- Selection bar -->
-			<selectedColor>262626</selectedColor> <!-- Selection letters -->
-			<primaryColor>ffffff</primaryColor> <!-- Letters -->
-			<secondaryColor>9F9F9F</secondaryColor>
-			<fontPath>./main/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<alignment>left</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-			<scrollSound>./main/sound/scroll.wav</scrollSound>
-		</textlist>
-	</view>
-
-	<view name="detailed">
 		<video name="md_video">
       <origin>0.5 0.5</origin>
 			<pos>0.54 0.29</pos>
