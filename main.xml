@@ -93,6 +93,16 @@ email.: jdorigao@gmail.com
 	</view>
 
 	<view name="detailed">
+		<video name="md_video">
+      <origin>0.5 0.5</origin>
+			<pos>0.54 0.29</pos>
+			<maxSize>0.30 0.424</maxSize>
+      <delay>0.8</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <loops>0</loops>
+		</video>
+		
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
 			<alignment>right</alignment>
 			<forceUppercase>1</forceUppercase>
@@ -140,12 +150,6 @@ email.: jdorigao@gmail.com
 			<pos>0.38 0.02</pos>
 			<size>0.32 0.6</size>
 			<path>./main/art/back.png</path>
-		</image>
-
-		<image name="md_image">
-			<origin>0.5 0.5</origin>
-			<pos>0.54 0.29</pos>
-			<maxSize>0.30 0.424</maxSize>
 		</image>
 
 		<text name="md_lbl_rating">
