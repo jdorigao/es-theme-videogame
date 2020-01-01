@@ -6,13 +6,13 @@
         <menuText name="menutitle">
             <fontPath>./main/fonts/ubuntu_bold.ttf</fontPath>
             <fontSize>0.044</fontSize>
-            <color>FAFAFA</color>
+            <color>969696</color>
         </menuText>
 
         <menuText name="menufooter">
             <fontPath>./main/fonts/ubuntu_medium.ttf</fontPath>
             <fontSize>0.02</fontSize>
-            <color>777777FF</color>
+            <color>969696</color>
         </menuText>
 
         <menuText name="menutext">
@@ -32,7 +32,9 @@
         </menuTextSmall>
 
         <menuBackground name="menubg">
-            <color>424242</color>
+            <color>2b2b2b</color>
+            <cornerSize>32 32</cornerSize>
+            <path>./main/art/frame.png</path>
         </menuBackground>
 
     </view>
