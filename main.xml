@@ -110,7 +110,7 @@ email.: jdorigao@gmail.com
       <loops>0</loops>
 		</video>
 		
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
 			<alignment>right</alignment>
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./main/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
@@ -118,7 +118,7 @@ email.: jdorigao@gmail.com
 			<size>0.11 0.02</size>
 		</text>
 
-		<text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_favorite">
+		<text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_gametime">
 			<alignment>left</alignment>
 			<fontPath>./main/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			<fontSize>0.02</fontSize>
@@ -145,11 +145,11 @@ email.: jdorigao@gmail.com
 			<scrollSound>./main/sound/scroll.wav</scrollSound>
 		</textlist>
 
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_description">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime, md_description">
 			<color>ececec</color>
 		</text>
 
-		<text name="md_releasedate, md_lastplayed, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
+		<text name="md_releasedate, md_lastplayed, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
 			<color>ff9900</color>
 		</text>
 
@@ -237,11 +237,11 @@ email.: jdorigao@gmail.com
 			<pos>0.835 0.48</pos>
 		</text>
 
-		<text name="md_lbl_favorite">
+		<text name="md_lbl_gametime">
 			<pos>0.72 0.55</pos>
 		</text>
 
-		<text name="md_favorite">
+		<text name="md_gametime">
 			<pos>0.835 0.55</pos>
 		</text>
 
