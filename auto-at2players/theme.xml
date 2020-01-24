@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	author: Juliano Dorigão
+	email: jdorigao@gmail.com
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../main.xml</include>
+	<include>./../chooseTheme.xml</include>	
+	
+	<view name="system, basic, detailed">	
+		<image name="logo">
+			<path>./art/logo.png</path>
+		</image>
+
+		<image name="background" extra="true">
+			<path>${pathBarckground}</path>
+		</image>
+	</view>	
+</theme>
