@@ -11,15 +11,15 @@ To change the background option edit the **chooseTheme.xml** file uncommenting t
     <pathBarckground>./art/bg.jpg</pathBarckground>
 
 ## No image
-![alt text](main/screenshots/001.png "Front")
+![alt text](art/screenshots/001.png "Front")
 
-![alt text](main/screenshots/002.png "Image list")
+![alt text](art/screenshots/002.png "Image list")
 
-![alt text](main/screenshots/003.png "List without image")
+![alt text](art/screenshots/003.png "List without image")
 
 ## Image
-![alt text](main/screenshots/004.png "Front")
+![alt text](art/screenshots/004.png "Front")
 
-![alt text](main/screenshots/005.png "Image list")
+![alt text](art/screenshots/005.png "Image list")
 
-![alt text](main/screenshots/006.png "List without image")
+![alt text](art/screenshots/006.png "List without image")
