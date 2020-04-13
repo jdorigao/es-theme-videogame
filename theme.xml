@@ -131,6 +131,7 @@ email.: jdorigao@gmail.com
 	</view>
 
 	<include subset="layout" name="default" displayName="Default">./art/layouts/default.xml</include>
+	<include subset="layout" name="legacy" displayName="Legacy">./art/layouts/legacy.xml</include>
 	<include subset="layout" name="odroidgoa" displayName="Odroid GO">./art/layouts/odroidgoa.xml</include>
 	
 </theme>

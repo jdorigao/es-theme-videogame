@@ -6,6 +6,36 @@ email.: jdorigao@gmail.com
 
 <theme>
 	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<carousel name="systemcarousel">
+		  <color>E7E7E7A0</color>
+		  <colorEnd>FFD79AD0</colorEnd>
+		  <systemInfoDelay>700</systemInfoDelay>
+		  <pos>0 0.3837</pos>
+		  <size>1 0.2325</size>
+		  <zIndex>20</zIndex>
+		</carousel>
+
+		<image name="carousel-inner" extra="true">
+		  <path>./art/assets/carousel.png</path>
+		  <color>FFFFFFFF</color>
+		  <origin>0 0</origin>
+		  <pos>0 0.3837</pos>
+		  <size>1 0.2325</size>
+		  <zIndex>40</zIndex>
+		</image>
+
+		<text name="systemInfo">
+		  <pos>0 0.64</pos>
+		  <size>1 0.25</size>
+		  <backgroundColor>0000FF00</backgroundColor>
+		  <color>DDDDDDD8</color>
+		  <glowColor>00000020</glowColor>
+		  <glowSize>2</glowSize>
+		  <reflexion>0.20 0.0</reflexion>
+		</text>
+	</view>
 	
 	<view name="detailed">
 		<image name="back-logo" extra="true">
